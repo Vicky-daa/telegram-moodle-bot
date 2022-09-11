@@ -1,0 +1,24 @@
+{
+  "name": "Lambton Moodle Scrappy Bot",
+  "description": "A telegram bot deployed in heroku used to scrap Lambton college LMS.",
+  "repository": "https://github.com/muruganantham1009/pythonprojectTerm1",
+  "keywords": ["python", "pyrogram", "telegram"],
+  "image": "heroku/python",
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "env": {
+    "API_ID": {
+      "description": ""
+    },
+    "API_HASH": {
+      "description": ""
+    },
+    "BOT_TOKEN": {
+      "description": ""
+    }
+  }
+}
